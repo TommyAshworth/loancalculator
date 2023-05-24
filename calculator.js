@@ -34,8 +34,8 @@ window.addEventListener('DOMContentLoaded', function() {
   // Get the current values from the UI
   // Update the monthly payment
   function update() {
-   const getCurrentUIValues = getCurrentUIValues();
-   updateMonthly(calculateMonthlyPayment(getCurrentUIValues));
+   const currentUIValues = getCurrentUIValues();
+   updateMonthly(calculateMonthlyPayment(currentUIValues));
   
   }
   
